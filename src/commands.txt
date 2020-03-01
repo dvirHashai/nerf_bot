@@ -1,0 +1,27 @@
+//////// ---------------- ////////
+HAREL NERF WARS BOT
+INLINE COMMANDS:
+//////// ---------------- ////////
+/start
+- starts new session with the bot
+- PERMISSION: all group members
+
+/cmnds
+- sends back a list of all possible inline commands
+- PERMISSION: creator, admin
+
+/getTunnel
+- opens an 8-hr long tunnel to local self using ngrok
+- PERMISSION: creator, admin
+
+/setIsActive <"true"/"false">
+  - sets the bot operation mode from "active" to "inactive"
+  - example: "/setIsActive true" - the bot is now active and will respond normally
+  - example: "/setIsActive false" - the bot is now inactive and will respond to admin inline commands only
+  - *you should never send this, its only for developer/super-admin, (inactive mode means the bot is not available for customers!)
+  - PERMISSION: creator, admin
+
+  /setPass <new password>
+  - sets new Password
+  - PERMISSION: creator
+  - example: "/setPass 12345"
